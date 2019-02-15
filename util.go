@@ -301,6 +301,6 @@ func findFieldNameFromTypeInfo(t string) string {
 	case BoolType:
 		return cdataBooleanName
 	}
-	return "string"
+	return cdataStringName
 
 }
